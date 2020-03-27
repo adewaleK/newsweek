@@ -1,0 +1,55 @@
+body {
+  background-color: #f4f5f6;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*
+.container {
+  min-width: 1350px;
+  max-height: 200px;
+  margin: 0 auto;
+  padding: 20px;
+} */
+
+
+.red-bar{
+  background-color: red;
+  width: 97%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-logo{
+  width:396px;
+  height:60px;
+}
+
+.white-nav{
+  height: 3em;
+  width: 97%;
+  margin: 0 auto;
+  
+}
+
+.white-nav li{
+  text-align: center; 
+  list-style: none;
+  
+}
+
+.white-nav li a{
+  padding-right: 1.5em;
+  border-right: 1px solid gray; 
+  line-height: 3em;
+}
+
+main{
+  width: 97%;
+  margin: 0 auto;
+
+}
+
+.container-2{
+  width: 97%;
+  margin: 0 auto;
+}
