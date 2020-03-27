@@ -10,13 +10,24 @@ body {
   margin: 0 auto;
   padding: 20px;
 } */
-
+*{
+  box-sizing: border-box;
+}
 
 .red-bar{
   background-color: red;
   width: 97%;
   margin: 0 auto;
   padding: 20px;
+}
+
+.climate{
+  margin-left: 10px;
+}
+
+.weather-icon{
+  width:24px;
+  height:24px;
 }
 
 .main-logo{
@@ -46,10 +57,34 @@ body {
 main{
   width: 97%;
   margin: 0 auto;
+  padding-top: 15px;
 
 }
 
-.container-2{
+.stories-section{
   width: 97%;
   margin: 0 auto;
 }
+
+.title{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 16px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  color:rgba(3,3,3,.4);
+  padding-bottom: 11px;
+
+}
+
+.featured-img{
+  width: 100%;
+  height: 265px;
+}
+
+.top-img{
+  height:364px;
+  width: 100%;
+}
+
