@@ -88,3 +88,20 @@ main{
   width: 100%;
 }
 
+.opinion-text:after{
+  content: "";
+  display: block;
+  border-bottom: 1px solid #666;
+  margin: 0 auto;
+  width: 93%;
+}
+
+.opinion-head{
+  color: #000;
+  margin-bottom: 1px;
+}
+
+.opinion-body{
+  color: #666;
+}
+
