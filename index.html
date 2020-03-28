@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <div class="red-bar">
+        <div class="red-bar text-white">
             <div class="d-flex justify-content-between">
                     <div class="stats">
                         <div class="climate d-flex">
@@ -44,7 +44,29 @@
             
             </div>  
         </div>
-        <div class="white-nav bg-white">
+        <div class="small-red-bar text-white" id="navbar">
+            <div class="d-flex">
+                <div class="part1 d-flex" >
+                    <div class="logo">
+                        <img src="images/newsweek-logo-white.svg" alt="logo" class="small-logo">
+                    </div>
+                    <div class="info">
+                        <p><img src="https://g.newsweek.com/img/weather/30.png" alt="Partly Cloudy" class="weather-icon">31&#176;<span> Lagos,NG <img src="https://g.newsweek.com/img/weather/ic-white-arrow.png" class="weather-arrow"></span></p>
+                    </div>
+    
+                </div>
+                <div class="d-flex ml-auto">
+                    <div class="ml-auto"><p>SIGN IN</p></div>
+                    <div class="subscribe">
+                        SUBSCRIBE <img src="https://g.newsweek.com/img/weather/ic-white-arrow.png" class="weather-arrow">
+                    </div>
+                    <div class="menu">
+                        <a href="#"><img src="images/menu-logo.PNG" alt="menu" class="menu-bar"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="white-nav bg-white" id="navlinks">
             <ul class="d-flex justify-content-between">
                 <li >
                   <a  href="#">U.S.</a>
@@ -728,6 +750,21 @@
     <footer>
 
     </footer>
+    <script>
+        window.onscroll = function() { sticky() };
+    
+        var lenght_offset = document.getElementById("navlinks").offsetTop;
+        var navbar = document.getElementById("navbar");
+    
+    
+        function sticky() {
+          if ((window.pageYOffset >= lenght_offset && window.pageYOffset > 991) || (window.pageYOffset >= 50 && window.pageYOffset <= 991))
+            navbar.classList.add("sticky-nav");
+          else
+            navbar.classList.remove("sticky-nav");
+        }
+    
+      </script>
 
     
 </body>

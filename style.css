@@ -15,10 +15,27 @@ body {
 }
 
 .red-bar{
-  background-color: red;
+  background-color: #f72210;
   width: 97%;
   margin: 0 auto;
   padding: 20px;
+}
+
+.small-red-bar{
+  display: none;
+  background-color: #f72210;
+  width: 97%;
+  padding-top: 0;
+  margin: 0 auto;
+  z-index: 50;
+}
+
+.sticky-nav {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .climate{
@@ -33,6 +50,11 @@ body {
 .main-logo{
   width:396px;
   height:60px;
+}
+
+.small-logo{
+  width: 131px;
+  height: 20px;
 }
 
 .white-nav{
