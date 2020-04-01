@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <div class="red-bar text-white">
+        <div class="red-bar text-white ">
             <div class="d-flex justify-content-between">
                     <div class="stats">
                         <div class="climate d-flex">
@@ -30,21 +30,16 @@
                         </div>
                         <div class="date">
                             <p>Thu, Mar 26, 2020</p>
-                        </div>
-                        
+                        </div>             
                     </div>
                 <div><img src="images/newsweek-logo-white.svg" alt="newsweek logo" class="main-logo"></div>
-                <div class="d-flex">
-                    <div><p>SIGN IN</p></div>
+                <div class="d-flex user-sub">
+                    <div><a href="#"><p class="user-sign-in">SIGN IN</p></a></div>
                     <div class="subscribe">
-                        SUBSCRIBE <img src="https://g.newsweek.com/img/weather/ic-white-arrow.png" class="weather-arrow">
+                        <a href="#"><p>SUBSCRIBE <i class="fas fa-chevron-right"></i></p><a>
                     </div>
-
                 </div>
-            
-            </div>
-            
-            
+            </div>   
         </div>
         <div class="rectangle"></div>
         <div class="triangle-bottomright"></div>
@@ -57,12 +52,11 @@
                     <div class="info">
                         <p><img src="https://g.newsweek.com/img/weather/30.png" alt="Partly Cloudy" class="weather-icon">31&#176;<span> Lagos,NG <img src="https://g.newsweek.com/img/weather/ic-white-arrow.png" class="weather-arrow"></span></p>
                     </div>
-    
                 </div>
-                <div class="d-flex ml-auto">
-                    <div class="ml-auto"><p>SIGN IN</p></div>
-                    <div class="subscribe">
-                        SUBSCRIBE <img src="https://g.newsweek.com/img/weather/ic-white-arrow.png" class="weather-arrow">
+                <div class="d-flex ml-auto part2">
+                    <div class="small-sign-in"><p><a href="#">SIGN IN</a></p></div>
+                    <div class="small-subscribe">
+                        <p><a href="#">SUBSCRIBE <i class="fas fa-chevron-right"></i></a></p>
                     </div>
                     <div class="menu">
                         <a href="#"><img src="images/menu-logo.PNG" alt="menu" class="menu-bar"></a>
@@ -70,43 +64,43 @@
                 </div>
             </div>
         </div>
-        <div class="white-nav bg-white" id="navlinks">
-            <ul class="d-flex justify-content-between">
-                <li >
-                  <a  href="#">U.S.</a>
+        <div class="nav bg-white white-nav" id="navlinks" style="width: 97%;margin: 0 auto;">
+            <ul class="nav">
+                <li class="nav-item">
+                  <a  class="nav-link" href="#" style="border-right: 1px solid gray;font-size: 19px;padding: 0 22px;">U.S.</a>
                 </li>
-                <li>
-                  <a href="#">World</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="border-right: 1px solid gray;font-size: 19px;padding: 0 22px;">World</a>
                 </li>
-                <li>
-                  <a href="#">Business</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="border-right: 1px solid gray;font-size: 19px;padding: 0 22px;">Business</a>
                 </li>
-                <li>
-                  <a href="#">Tech & Science</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="border-right: 1px solid gray;font-size: 19px;padding: 0 22px;">Tech & Science</a>
                 </li>
-                <li>
-                    <a href="#">Culture</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="border-right: 1px solid gray;font-size: 19px;padding: 0 22px;">Culture</a>
                 </li>
-                <li>
-                    <a href="#">Newsgeek</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="border-right: 1px solid gray;font-size: 19px;padding: 0 22px;">Newsgeek</a>
                 </li>
-                <li>
-                    <a href="#">Sports</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="border-right: 1px solid gray;font-size: 19px;padding: 0 22px;">Sports</a>
                 </li>
-                <li>
-                    <a href="#">The Debate</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="border-right: 1px solid gray;font-size: 19px;padding: 0 22px;">The Debate</a>
                 </li>
-                <li>
-                    <a href="#">Vantage</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="border-right: 1px solid gray;font-size: 19px;padding: 0 22px;">Vantage</a>
                 </li>
                 <li class="d-flex border-right-0">
                     <div><a href="#" class="border-right-0">Weather</a></div>
                     <div class="d-flex">
-                        <a href="#" class="border-right-0">Search</a><i class="fas fa-search"></i>
+                        <a href="#" class="border-right-0" style="margin-left: -20px;">Search <i class="fas fa-search" style="margin-left: 7px;"></i></a>
                     </div>
                 </li>
 
-              </ul>
+            </ul>
         </div>
 
     </header>
@@ -1494,12 +1488,16 @@
         var lenght_offset = document.getElementById("navlinks").offsetTop;
         var navbar = document.getElementById("navbar");
     
-    
         function sticky() {
           if ((window.pageYOffset >= lenght_offset && window.pageYOffset > 991) || (window.pageYOffset >= 50 && window.pageYOffset <= 991))
-            navbar.classList.add("sticky-nav");
-          else
-            navbar.classList.remove("sticky-nav");
+            {
+              navbar.classList.add("sticky-nav");
+            }
+            
+          else {
+            navbar.classList.remove("sticky-nav");             
+          }
+           
         }
     
     </script>
