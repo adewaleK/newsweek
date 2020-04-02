@@ -715,5 +715,85 @@ label {
   margin-left: 15px;
 }
 
+.title-hr {
+  height: 3px;
+  background-color: #f72210;
+  margin-top: -2px;
+  margin-bottom: 3px;
+}
 
+.debate {
+  position: relative;
+  margin-top: 30px;
+}
 
+.debater {
+  position: absolute;
+  top: 150px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+ 
+}
+
+.debater a {
+  text-decoration: none;
+}
+
+.debater a:hover {
+  color: #000;
+}
+
+.add-margin {
+  margin-top: -5%;
+
+}
+
+.debater span {
+  color: #666;
+}
+
+.debater-img {
+  position: absolute;
+  right: 0;
+  width:63px;
+  top: 32%;
+}
+
+.argument a {
+  font-size: 17px;
+  line-height: 21px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.argument a:hover {
+  color: #000;
+}
+
+div.argument {
+  margin-left: 20px;
+}
+
+.argument-details {
+  margin-left: 15px;
+
+}
+
+.debater-details {
+  margin-top: -20px;
+}
+
+.vs {
+  position: absolute;
+  top: 195px;
+  width: 40px;height: 40px;
+  background-color: #000;left: 50%;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;font-size: 14px
+}
