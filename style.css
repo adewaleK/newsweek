@@ -550,7 +550,7 @@ label {
   width: 100%;
 }
 
-.top-stories hr {
+.top-stories hr, .more-stories hr {
   margin-top: 1.5%;
 }
 
@@ -571,7 +571,8 @@ label {
 }
 
 .featured-body p, 
-.sub-txt{
+.sub-txt, 
+.more-body{
   font-size: 15px;
   line-height: 20px;
 }
@@ -594,7 +595,8 @@ label {
   margin-left: -25px;
 }
 
-.sub-head a {
+.sub-head a, 
+.more-title a {
   font-size: 17px;
   line-height: 20px;
   margin: 10px 0;
@@ -603,7 +605,8 @@ label {
   color: #000;
 }
 
-.sub-body a:hover {
+.sub-body a:hover, 
+.more-title a:hover{
   color: #000;
   text-decoration-line: underline;
   text-decoration-style: solid;
@@ -654,3 +657,17 @@ label {
   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
   color: rgba(39,39,39,.5);
 }
+
+.more-head img {
+  width: 95px;
+  height: 95px;
+}
+
+.more-hr {
+  margin-top: -5%;
+}
+
+.more-content {
+  margin-left: -7%;
+}
+
