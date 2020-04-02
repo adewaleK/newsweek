@@ -521,12 +521,12 @@ label {
 
 .gray-tag, 
 .sponsored-tag {
-  height: 20%;
+  height: 15%;
   background-color: #ececec;
   text-align: center;
-  padding: 3% 3%;
+  padding: 2% 2%;
   position: absolute;
-  top: 80%;
+  top: 85%;
 }
 
 .gray-tag a {
@@ -550,6 +550,10 @@ label {
   width: 100%;
 }
 
+.top-stories hr {
+  margin-top: 1.5%;
+}
+
 .featured-header p {
   font-size: 22px;
   line-height: 22px;
@@ -566,7 +570,8 @@ label {
   text-decoration-color: rgb(247, 34, 16);
 }
 
-.featured-body p {
+.featured-body p, 
+.sub-txt{
   font-size: 15px;
   line-height: 20px;
 }
@@ -578,4 +583,74 @@ label {
 
 .featured-stories article {
   margin-bottom: 20px;
+}
+
+.sub-img img {
+  width: 95px;
+  height: 95px;
+}
+
+.sub-body {
+  margin-left: -25px;
+}
+
+.sub-head a {
+  font-size: 17px;
+  line-height: 20px;
+  margin: 10px 0;
+  font-family: "Roboto Condensed",sans-serif;
+  font-weight: bold;
+  color: #000;
+}
+
+.sub-body a:hover {
+  color: #000;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: rgb(247, 34, 16);
+}
+
+.black-grp {
+  position: relative;
+}
+
+.black-tag {
+  width: 35%;
+  height: 18%;
+  background-color: #ececec;
+  padding: 1% 2%;
+  position: absolute;
+  top: 82%;
+}
+
+.black-grp img {
+  width: 155px;
+  height: 155px;
+}
+
+.black-tag:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.culture-header p {
+  font-size: 20px;
+  font-family: "Lora",serif;
+  line-height: 22px;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.culture-header p a {
+  color: #000;
+  text-decoration: none;
+}
+
+.culture-body p {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  color: rgba(39,39,39,.5);
 }
