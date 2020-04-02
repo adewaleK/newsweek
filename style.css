@@ -78,20 +78,11 @@ a {
   font-size: 15px;
 }
 
-.block-title,
-.block-title a {
-  color: rgba(3, 3, 3, 0.4);
-}
-
 .footer-links a,
 label {
   color: #666;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-a:hover {
-  text-decoration: none;
 }
 
 .lora a {
@@ -109,14 +100,6 @@ a:hover {
   height: 25px;
   background-image: url(../images/img-social.png);
   background-repeat: no-repeat;
-}
-
-h3 a:hover,
-h4 a:hover,
-h5 a:hover,
-h6 a:hover {
-  text-decoration: underline #f72210;
-  color: black;
 }
 
 .number {
@@ -182,11 +165,6 @@ h6 a:hover {
   background-color: #f72210;
   height: 95px;
   padding: 20px 10px 15px;
-}
-
-.text-blue,
-.category-blue a:hover {
-  color: #3581f4;
 }
 
 .category-red,
@@ -320,15 +298,7 @@ h6 a:hover {
   height: 301px;
 }
 
-.col-l {
-  height: 301px;
-  background-color: #f4f5f6;
-  padding: 30px 30px 43px 30px;
-}
 
-.col-l .image {
-  padding-right: 90px;
-}
 
 .prev,
 .current {
@@ -528,4 +498,84 @@ h6 a:hover {
   .weather {
     display: none;
   }
+}
+
+.title{
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgba(3,3,3,.4);
+  padding-bottom: 11px;
+}
+/*
+.article-box {
+  position: relative;
+  height: auto;
+}*/
+
+.img-grp {
+  position: relative;
+}
+
+.gray-tag, 
+.sponsored-tag {
+  height: 20%;
+  background-color: #ececec;
+  text-align: center;
+  padding: 3% 3%;
+  position: absolute;
+  top: 80%;
+}
+
+.gray-tag a {
+  color: #f72210;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.sponsored-tag a {
+  color: #3997f0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.featured-img {
+  
+  height: 229px;
+}
+
+.featured-stories article {
+  width: 100%;
+}
+
+.featured-header p {
+  font-size: 22px;
+  line-height: 22px;
+  margin: 10px 0;
+  font-family: "Roboto Condensed",sans-serif;
+  font-weight: bold;
+  color: #000;
+}
+
+.featured-header p a:hover {
+  color: #000;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: rgb(247, 34, 16);
+}
+
+.featured-body p {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.add-border {
+  border: 1px solid #d6d6d6;
+  padding: 20px; 
+}
+
+.featured-stories article {
+  margin-bottom: 20px;
 }
