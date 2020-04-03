@@ -772,3 +772,47 @@ div.argument {
   width:290px;
   height:320px;
 }
+
+.editor-img {
+  width:290px; 
+  height:193px;
+}
+
+.editor-width {
+  width: 290px;
+}
+
+.editor-body {
+  font-family: Arial,Helvetica,sans-serif;
+  color: #333;
+  font-size: 15px;
+line-height: 20px;
+}
+
+.editor-size a:hover {
+  text-decoration-color: red;
+}
+
+.world-head img {
+  width:397px;
+  height:264px;
+}
+
+.feature-title {
+  width: 290px;
+  margin-top: 4%;
+}
+
+.feature-title a:hover {
+  text-decoration-color: red;
+  color: #000;
+}
+
+.feature-title a {
+  font-size: 22px;
+  line-height: 22px;
+  font-family: "Roboto Condensed",sans-serif;
+  font-weight: bold;
+
+}
+
