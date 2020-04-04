@@ -294,6 +294,10 @@ a {
   margin-top: -2px;
 }
 
+.sub-img {
+  margin-right: 3%;
+}
+
 .sub-img img {
   width: 95px;
   height: 95px;
@@ -825,4 +829,147 @@ line-height: 20px;
   left: 202px;
   height: 301px;
   padding-top: 40px;
+}
+
+.subscription-part {
+  position: relative;
+  flex-direction: column;
+  width: 65%;
+}
+
+.sub-image-form {
+  background-color: #f4f5f6;
+  margin-right: 2%; 
+  height: 303px;  
+}
+
+.sub-image-form .sub-images {
+  margin: 5% 0 0 5%;
+}
+
+.sub-images .sub1 {
+  width: 170px;
+  position: absolute;
+  left: 5%;
+  top: 12%;
+}
+
+.sub-images .sub2 {
+  position: absolute;
+  left: 15%;
+  top: 17%;
+  width:170px;
+}
+
+.sub-form-part {
+  margin-top: 8%;
+  margin-left: 35%;
+}
+
+.sub-button button {
+  background-color: red;
+}
+
+.sub-button button:hover {
+  background-color: #c82333;
+}
+
+.sub-button button a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.newsletter-signup {
+  height: 303px; 
+  border: 1px solid #f4f5f6;
+  border-left: 0;
+}
+
+.newsletter-part {
+  width: 35%;
+  flex-direction: column;
+}
+
+.newsletter-form {
+  margin-left: 6%;
+  margin-top: 10%;
+  margin-right: 4%;
+  
+}
+
+.footer-elements {
+  
+}
+
+.edit-links .nav li, 
+.other-links .nav li {
+  position: relative;
+  
+}
+
+.edit-links li a,
+.other-links li a {
+  font-size: 14px;
+  line-height: 15px;
+  font-family: Arial,Helvetica,sans-serif; 
+  color: #666;
+}
+
+.edit-links li a:hover, 
+.other-links li a:hover {
+  color: #000;
+}
+
+.edit-links .nav li::after, 
+.other-links .nav li::after {
+  content:"";
+  position: absolute;
+  top: 9px;
+  bottom: 10px;
+  right: 0;
+  border-right: 1px solid #666;
+}
+
+.other-links {
+  margin-left: -1.2%;
+}
+
+.editions1 {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+  margin-top: 0.5%;
+}
+
+.copy {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-top: 2.5%; 
+}
+
+.foot-symbol {
+  margin-right: 1%;
+}
+
+.foot-symbol img {
+  width: 251px; 
+  height: 48px;
+  
+}
+
+.google-links {
+  margin-top: 1.5%;
+}
+
+.google-links a i {
+  font-size: 26px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.footer-hr {
+  margin-top: -1.7%;
 }
