@@ -169,10 +169,11 @@ a {
     display: flex;
   }
 
-  .coro-head img {
-    width:263px;
-    height:350px;
+  .mag-base {
+    width: 100% !important ;
+    margin-top: 3%;
   }
+
 }
 
 @media (max-width: 991px) {
@@ -204,6 +205,127 @@ a {
   .op-item {
     margin-bottom: 1%;
   }
+
+  .push-down {
+    margin-bottom: 2%;
+  }
+
+  .latest-news-cards article {
+    width: 33%;
+    margin: 0 auto;
+  }
+
+  .latest-news-cards .sign-up {
+    width: 30%;
+  }
+
+  .mag1 {
+    width: 100%;
+    height: 100% !important;
+  }
+
+  .focus {
+    width: 100%;
+    height: 100% !important;
+  }
+
+  .coro-base a{
+    font-size: 16px !important;
+    line-height: 16px;
+  }
+
+  .mag-title a {
+    font-size: 14px !important;
+    line-height: 24px;
+  }
+
+  .mag-base {
+    width: 100% !important ;
+    margin-top: 3%;
+  }
+
+  .editor-img {
+    height: 100% !important ;
+    width: 100%;
+    margin-top: 3%;
+  }
+
+  .editors {
+    margin-bottom: 3%;
+  }
+
+  .world-head img {
+    width: 100%;
+    height: 100% !important;
+  }
+
+  .us-head img {
+    width: 100%;
+    height: 100% !important;
+  }
+
+  #culture1-img {
+    height: 200px !important;
+    width: 300px !important ;
+  }
+
+  #culture2-img {
+    height: 200px !important;
+    width: 300px !important ;
+  }
+
+  #sports1-img {
+    height: 200px !important;
+    width: 300px !important ;
+  }
+
+  #sports2-img {
+    height: 200px !important;
+    width: 300px !important ;
+  }
+
+  #tech1-img {
+    height: 200px !important;
+    width: 300px !important ;
+  }
+
+  #tech2-img {
+    height: 200px !important;
+    width: 300px !important ;
+  }
+
+  #biz1-img {
+    height: 200px !important;
+    width: 300px !important ;
+  }
+
+  #biz2-img {
+    height: 200px !important;
+    width: 300px !important ;
+  }
+
+  #world1-img {
+    height: 200px !important;
+    width: 300px !important ;
+  }
+
+  #world2-img {
+    height: 200px !important;
+    width: 300px !important ;
+  }
+
+  #us1-img {
+    height: 200px !important;
+    width: 300px !important ;
+  }
+
+  #us2-img {
+    height: 200px !important;
+    width: 300px !important ;
+  }
+
+
+
 
 }
 
@@ -694,10 +816,14 @@ div.argument {
   font-weight: bold;
   text-decoration-color: red;
 }
-
+/*
 .mag-head img {
   width:100%;
-  height:285px;
+  height:80%;
+}*/
+.mag1 {
+  width: 100%;
+  height: 17.8125em;
 }
 
 .focus-img {
