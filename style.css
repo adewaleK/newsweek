@@ -324,8 +324,34 @@ a {
     width: 300px !important ;
   }
 
+  .subscribe-signup {
+    flex-direction: column;
+    margin-bottom: 4% ;
+  }
 
+  .subscription-part {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
 
+  .newsletter-part {
+    width: 100% !important;
+    height: 191px !important;
+    margin-right: 25px !important;
+
+  }
+
+  .newsletter-img img {
+    height: 191px !important;
+    width: 189px !important;
+  }
+
+  .newsletter-form {
+    margin-top: 2% !important;
+    margin-left: 3% !important;
+  }
+
+  
 
 }
 
@@ -1030,8 +1056,7 @@ div.argument {
 .newsletter-form {
   margin-left: 6%;
   margin-top: 10%;
-  margin-right: 4%;
-  
+  margin-right: 4%; 
 }
 
 .edit-links .nav li, 
@@ -1109,6 +1134,10 @@ ul li:last-child::after {
   font-size: 26px;
   cursor: pointer;
   margin-right: 10px;
+}
+
+.footer-elements {
+  padding-bottom: 2%;
 }
 
 .footer-hr {
