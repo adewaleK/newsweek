@@ -410,6 +410,24 @@ h6 a:hover {
   background-size: contain;
 }
 
+.tags a {
+  bottom: 0;
+  background-color: #c2d4d7;
+  padding: 0 5%;
+}
+
+.tags a {
+  bottom: 0;
+  background-color: #c2d4d7;
+  padding: 0 5%;
+  font-size: 15px;
+}
+
+.tags a:hover {
+  background-color: #000;
+  color: #c2d4d7;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 100%;
