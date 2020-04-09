@@ -517,10 +517,6 @@ h6 a:hover {
   }
 }
 
-
-
-
-
 @media (max-width: 630px) {
   .weather-country {
     display: none;
