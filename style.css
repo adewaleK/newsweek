@@ -111,6 +111,13 @@ a:hover {
   background-repeat: no-repeat;
 }
 
+.tags a {
+  bottom: 0;
+  background-color: #c2d4d7;
+  padding: 0 5%;
+  font-size: 15px;
+}
+
 h3 a:hover,
 h4 a:hover,
 h5 a:hover,
@@ -408,19 +415,6 @@ h6 a:hover {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
-}
-
-.tags a {
-  bottom: 0;
-  background-color: #c2d4d7;
-  padding: 0 5%;
-}
-
-.tags a {
-  bottom: 0;
-  background-color: #c2d4d7;
-  padding: 0 5%;
-  font-size: 15px;
 }
 
 .tags a:hover {
