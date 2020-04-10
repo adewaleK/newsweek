@@ -422,6 +422,14 @@ h6 a:hover {
   color: #c2d4d7;
 }
 
+.news-copyright {
+  font-size: 13px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 12px;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 100%;
@@ -467,6 +475,10 @@ h6 a:hover {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .social {
+    margin-top: -5%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -508,6 +520,19 @@ h6 a:hover {
   .col4 .row {
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .links {
+    flex-direction: column;
+  }
+
+  .news-copyright {
+    margin-left: -15px;
+    margin-top: -2%;
+  }
+
+  .social {
+    margin-right: 78%;
   }
 }
 
