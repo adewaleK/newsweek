@@ -567,6 +567,14 @@ h6 a:hover {
     margin-right: 70%;
     margin-top: -0.51%;
   }
+
+  .opinion-img {
+    width: 63px !important;
+  }
+
+  .latest-img {
+    width: 95px !important;
+  }
 }
 
 @media (max-width: 400px) {
@@ -585,4 +593,5 @@ h6 a:hover {
     margin-right: 59%;
     margin-top: -0.51%;
   }
+
 }
