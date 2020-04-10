@@ -533,6 +533,7 @@ h6 a:hover {
 
   .social {
     margin-right: 78%;
+    margin-top: -0.51%;
   }
 }
 
@@ -561,8 +562,27 @@ h6 a:hover {
   }
 }
 
+@media (max-width: 576px) {
+  .social {
+    margin-right: 70%;
+    margin-top: -0.51%;
+  }
+}
+
+@media (max-width: 400px) {
+  .social {
+    margin-left: 5px;
+    margin-top: -0.51%;
+  }
+}
+
 @media (max-width: 440px) {
   .weather {
     display: none;
+}
+
+  .social {
+    margin-right: 59%;
+    margin-top: -0.51%;
   }
 }
