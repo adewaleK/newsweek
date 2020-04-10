@@ -48,6 +48,7 @@ Please checkout the live version of our project [here](https://raw.githack.com/a
 * Github: [@githubhandle](https://github.com/adewaleK)
 * Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 * Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+* Email: [Email](devkamilnaija@gmail.com)
 
 ## 🤝 Contributing
 
