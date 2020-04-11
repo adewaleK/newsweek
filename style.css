@@ -587,11 +587,10 @@ h6 a:hover {
 @media (max-width: 440px) {
   .weather {
     display: none;
-}
+  }
 
   .social {
     margin-right: 59%;
     margin-top: -0.51%;
   }
-
 }
