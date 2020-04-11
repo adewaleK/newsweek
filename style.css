@@ -579,18 +579,27 @@ h6 a:hover {
 
 @media (max-width: 400px) {
   .social {
-    margin-left: 5px;
+    margin-left: 3px !important;
     margin-top: -0.51%;
+    width: 50%;
   }
 }
 
 @media (max-width: 440px) {
-  .weather {
-    display: none;
-  }
-
   .social {
-    margin-right: 59%;
+    margin-right: 59% !important;
     margin-top: -0.51%;
   }
 }
+
+@media (max-width: 480px) {
+  .weather {
+    display: none;
+  }
+  .social {
+    margin-right: 63%;
+    margin-top: -0.51%;
+  }
+}
+
+
