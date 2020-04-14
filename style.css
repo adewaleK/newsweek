@@ -562,10 +562,10 @@ h6 a:hover {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .social {
-    margin-right: 70%;
-    margin-top: -0.51%;
+    margin-right: 85%;
+    margin-top: -0.4% !important;
   }
 
   .opinion-img {
@@ -575,31 +575,15 @@ h6 a:hover {
   .latest-img {
     width: 95px !important;
   }
-}
 
-@media (max-width: 400px) {
-  .social {
-    margin-left: 3px !important;
-    margin-top: -0.51%;
-    width: 50%;
+  .col-3-img img {
+    width: 95px !important;
   }
-}
 
-@media (max-width: 440px) {
-  .social {
-    margin-right: 59% !important;
-    margin-top: -0.51%;
+  .menu li {
+    border: none !important;
   }
 }
 
-@media (max-width: 480px) {
-  .weather {
-    display: none;
-  }
-  .social {
-    margin-right: 63%;
-    margin-top: -0.51%;
-  }
-}
 
 
