@@ -7,7 +7,6 @@ body {
 .small-headear {
   display: none;
   background-color: #f72210;
-  justify-content: space-between;
   z-index: 100;
 }
 
@@ -19,34 +18,35 @@ body {
   right: 0;
 }
 
-.first,
-.second {
-  display: flex;
-  align-items: center;
-}
-
-.first .weather {
-  padding-left: 20px;
-}
-
 .header-logo {
-  padding-left: 22px;
   max-width: 162px;
   min-width: 162px;
 }
 
+.rect {
+  width: 60px;
+  height: 20px;
+  right: 0;
+  top: 99%;
+  z-index: 5;
+  background-color: #f72210;
+
+}
+
+.triangle{
+  width: 0;
+  height: 0;
+  top: 99.4%;
+  z-index: 5;
+  right: 4.5%;
+  border-top: 20px solid #f72210;
+  border-left: 20px solid transparent;
+}
+
 .ham-menu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   height: 50px;
   width: 74px;
   cursor: pointer;
-}
-
-.weather-country {
-  display: inline;
 }
 
 .ham-menu::before,
@@ -62,13 +62,11 @@ body {
 /* end of the sticky navbar */
 
 .container,
-.header-bottom {
+.header-bottom, 
+.header-width {
   max-width: 1310px;
 }
 
-.header-bottom {
-  margin: 0 auto;
-}
 
 a {
   color: black;
@@ -119,7 +117,6 @@ a:hover {
 .tags a {
   bottom: 0;
   background-color: #c2d4d7;
-  padding: 0 5%;
   font-size: 15px;
 }
 
@@ -137,7 +134,6 @@ h6 a:hover {
   color: #f72210;
   font-size: 20px;
   text-indent: 5px;
-  text-align: center;
   line-height: 58px;
   background-image: url(images/icon-slideshows.png);
   background-repeat: no-repeat;
@@ -193,7 +189,6 @@ h6 a:hover {
 .header-top {
   background-color: #f72210;
   height: 95px;
-  padding: 20px 10px 15px;
 }
 
 .text-blue,
@@ -204,13 +199,11 @@ h6 a:hover {
 .category-red,
 .category-blue {
   bottom: 0;
-  padding: 6px 15px 6px;
   background-color: rgba(255, 255, 255, 0.9);
 }
 
 .category-blue2 {
   top: 0;
-  padding: 6px 15px 6px;
   background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -229,7 +222,6 @@ h6 a:hover {
 
 .byline {
   color: #555;
-  text-transform: uppercase;
   font-size: 14px;
 }
 
@@ -249,27 +241,20 @@ h6 a:hover {
 .vs {
   width: 40px;
   height: 40px;
-  background-color: black;
   color: #d6d6d6;
-  border-radius: 50%;
-  text-align: center;
-  margin: 14px auto 18px;
   line-height: 40px;
   font-size: 14px;
 }
 
 .debate-red {
   border-top: solid 4px #f92859;
-  padding-top: 1px;
 }
 
 .debate-blue {
   border-top: solid 4px #1c87fb;
-  padding-top: 1px;
 }
 
 .debate-byline .image {
-  margin-right: 4px;
   width: 63px;
   height: 63px;
   overflow: hidden;
@@ -277,9 +262,7 @@ h6 a:hover {
 }
 
 .the-by {
-  padding-top: 18px;
   flex: 1;
-  text-transform: uppercase;
   font-size: 14px;
   line-height: 21px;
 }
@@ -290,7 +273,6 @@ h6 a:hover {
   background: url(images/logo-n1.svg), #f72210;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-right: 10px;
 }
 
 .n-title {
@@ -299,7 +281,6 @@ h6 a:hover {
 
 .newsletter-signup {
   max-width: 300px;
-  margin: 0 auto;
   background-color: #f4f5f6;
 }
 
@@ -312,9 +293,6 @@ h6 a:hover {
   line-height: 22px;
 }
 
-.slideshows .icon-n {
-  margin-right: 13px;
-}
 
 .slideshows .icon-n::after {
   border-bottom: 3px solid red;
@@ -335,7 +313,6 @@ h6 a:hover {
 .col-l {
   height: 301px;
   background-color: #f4f5f6;
-  padding: 30px 30px 43px 30px;
 }
 
 .col-l .image {
@@ -403,7 +380,6 @@ h6 a:hover {
 .search-space {
   max-width: 70px;
   min-width: 70px;
-  padding-top: 2px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
@@ -430,9 +406,7 @@ h6 a:hover {
 .news-copyright {
   font-size: 13px;
   line-height: 12px;
-  text-transform: uppercase;
   color: #666;
-  margin-bottom: 12px;
 }
 
 @media (max-width: 1200px) {
@@ -530,11 +504,12 @@ h6 a:hover {
   .news-copyright {
     margin-left: -15px;
     margin-top: -2%;
+    margin-bottom: 2%;
   }
 
   .social {
     margin-right: 78%;
-    margin-top: -0.51%;
+    margin-top: 30% !important;
   }
 }
 

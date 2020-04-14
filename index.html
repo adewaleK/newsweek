@@ -11,49 +11,53 @@
 </head>
 <body>
   <header>
-    <div class="container">
-      <div class="header-top row text-white">
+    <div class="container position-relative">
+      <div class="rect position-absolute">
+    </div>
+    <div class="triangle position-absolute">
+    </div>
+      <div class="header-top pt-3 px-2 row text-white">     
         <div class="col-4">
           <div class="weather font-weight-bold">
             <a class="text-white" href="#">
               <img width="25" src="images/weather-icon.png" alt="Weather icon"> 28	&#176;
-              <span class="weather-country">Guatemala, GT <img class="img-fluid" src="images/white-arrow.png" alt="White arrow"></span>
+              <span class="d-inline ">Guatemala, GT <img class="img-fluid" src="images/white-arrow.png" alt="White arrow"></span>
             </a>
           </div>
           <div class="hide-at-small">Mon, Mar 02, 2020</div>
         </div>
-        <div class="header-middle col-4">
+        <div class="col-4">
           <a href="#"><img class="img-fluid" src="images/newsweek-logo-white.svg" alt="Newsweek logo"></a>
         </div>
-        <div class="the-sign-in col-4 d-flex justify-content-end align-items-end">
+        <div class="col-4 d-flex justify-content-end align-items-end mb-3">
           <a class="d-inline-block text-white font-weight-bold pt-1 pr-3" href="#" >SIGN IN</a>
           <a class="d-inline-block text-red font-weight-bold bg-light pt-1 px-3" href="#" >SUBSCRIBE &nbsp; &#10095;</a>
         </div>
       </div>
-      <div id="navbar" class="small-headear text-white">
-        <div class="first">
+      <div id="navbar" class="small-headear justify-content-between text-white">
+        <div class="d-flex align-items-center">
           <div class="header-logo">
             <a href="#"><img class="img-fluid" src="images/newsweek-logo-white.svg" alt="Newsweek logo"></a>
           </div>
-          <div class="weather font-weight-bold">
+          <div class="weather font-weight-bold pl-2">
             <a class="text-white" href="#">
               <img width="25" src="images/weather-icon.png" alt="Weather icon"> 28	&#176;
               <span class="weather-country">Guatemala, GT <img class="img-fluid" src="images/white-arrow.png" alt="W-arrow"></span>
             </a>
           </div>
         </div>
-        <div class="second">
+        <div class="d-flex align-items-center">
           <div class="the-sign-in d-flex justify-content-end align-items-end">
             <a class="d-inline-block text-white font-weight-bold px-1 pr-3" href="#" >SIGN IN</a>
             <a class="d-inline-block text-red font-weight-bold bg-light px-1 px-3" href="#" >SUBSCRIBE <span class="arrow"> &nbsp; &#10095;</span></a>
           </div>
-            <div class="ham-menu"><span></span></div>
+            <div class="d-flex flex-column ham-menu align-items-center justify-content-center"><span></span></div>
         </div>
       </div>
     </div>
 
-    <div id="navlinks" class="header-bottom py-3 bg-white position-relative hide-at-small">
-      <ul class="page-nav d-flex nav font-weight-bold">
+    <div id="navlinks" class="header-width my-0 mx-auto py-3 bg-white position-relative hide-at-small">
+      <ul class="page-nav d-flex nav font-weight-bold"> 
         <li class="leaf flex-fill border-right"><a class="link d-block text-center" href="#">U.S.</a></li>
         <li class="leaf flex-fill border-right"><a class="link d-block text-center" href="#">World</a></li>
         <li class="leaf flex-fill border-right"><a class="link d-block text-center" href="#">Business</a></li>
@@ -83,11 +87,11 @@
             <div class="row">
               <div class="col1 col-sm-12 col-md-5">
                 <div class="sticky">
-                  <div class="stories">
+                  <div>
                     <div class="block-title font-weight-bold"><a href="#">FEATURED STORIES</a></div>
                     <article class="py-2">
                       <div class="wrap position-relative">
-                        <div class="category-red position-absolute fixed-left ">
+                        <div class="category-red py-1 px-3 position-absolute fixed-left py-1 px-3">
                           <a href="#" class="a-category font-weight-bold text-uppercase text-red">us</a>
                         </div>
                         <div class="image">
@@ -101,7 +105,7 @@
                     </article>
                     <article class="py-2">
                       <div class="wrap position-relative">
-                        <div class="category-red position-absolute fixed-left ">
+                        <div class="category-red py-1 px-3 position-absolute fixed-left ">
                           <a href="#" class="a-category font-weight-bold text-uppercase text-red">world</a>
                         </div>
                         <div class="image">
@@ -119,7 +123,7 @@
                     </article>
                     <article class="py-2">
                       <div class="wrap position-relative">
-                        <div class="category-red position-absolute fixed-left ">
+                        <div class="category-red py-1 px-3 position-absolute fixed-left ">
                           <a href="#" class="a-category font-weight-bold text-uppercase text-red">us</a>
                         </div>
                         <div class="image">
@@ -133,7 +137,7 @@
                     </article>
                     <article class="py-2">
                       <div class="wrap position-relative">
-                        <div class="category-red position-absolute fixed-left ">
+                        <div class="category-red py-1 px-3 position-absolute fixed-left ">
                           <a href="#" class="a-category font-weight-bold text-uppercase text-red">news</a>
                         </div>
                         <div class="image">
@@ -150,7 +154,7 @@
                   <div class="sponsors">
                     <div class="sponsor py-3">
                       <div class="wrap position-relative">
-                        <div class="category-red position-absolute fixed-left font-weight-bold text-uppercase text-blue">
+                        <div class="category-red py-1 px-3 position-absolute fixed-left font-weight-bold text-uppercase text-blue">
                           Sponsored Insight
                         </div>
                         <div class="image">
@@ -166,7 +170,7 @@
                     </div>
                     <div class="sponsor py-3">
                       <div class="wrap position-relative">
-                        <div class="category-red position-absolute fixed-left font-weight-bold text-uppercase text-blue">
+                        <div class="category-red py-1 px-3 position-absolute fixed-left font-weight-bold text-uppercase text-blue">
                           Sponsored Insight
                         </div>
                         <div class="image">
@@ -182,7 +186,7 @@
                     </div>
                     <div class="sponsor py-3">
                       <div class="wrap position-relative">
-                        <div class="category-red position-absolute fixed-left font-weight-bold text-uppercase text-blue">
+                        <div class="category-red py-1 px-3 position-absolute fixed-left font-weight-bold text-uppercase text-blue">
                           Sponsored Insight
                         </div>
                         <div class="image">
@@ -206,7 +210,7 @@
                     <div class="block-title font-weight-bold">TOP STORY</div>
                     <article class="py-2">
                       <div class="wrap position-relative">
-                        <div class="category-red position-absolute fixed-left ">
+                        <div class="category-red py-1 px-3 position-absolute fixed-left ">
                           <a href="#" class="a-category font-weight-bold text-uppercase text-red">politics</a>
                         </div>
                       <div class="image">
@@ -227,7 +231,7 @@
                         <div class="image position-relative">
                           <a href="#"><img class="img-fluid" src="https://d.newsweek.com/en/full/1578357/restauranteur-delivers-oranges-hospital-workers-amid-coronavirus-crisis.jpg" alt="heroes-1"></a>
                           <div class="tags">
-                            <a href="#" class="position-absolute">Pandemic Heroes</a>
+                            <a href="#" class="position-absolute py-0 px-2">Pandemic Heroes</a>
                           </div>
                         </div>
                         <div class="info">
@@ -243,7 +247,7 @@
                         <div class="image position-relative">
                           <a href="#"><img class="img-fluid" src="images/heroe2.webp" alt="heroes-2"></a>
                           <div class="tags">
-                            <a href="#" class="position-absolute">Pandemic Heroes</a>
+                            <a href="#" class="position-absolute py-0 px-2">Pandemic Heroes</a>
                           </div>
                         </div>
                         <div class="info">
@@ -258,7 +262,7 @@
                         <div class="image position-relative">
                           <a href="#"><img class="img-fluid" src="images/heroe3.jpg" alt="heroes3"></a>
                           <div class="tags">
-                            <a href="#" class="position-absolute">Pandemic Heroes</a>
+                            <a href="#" class="position-absolute py-0 px-2">Pandemic Heroes</a>
                           </div>
                         </div>
                         <div class="info">
@@ -279,7 +283,7 @@
                         <div class="image position-relative">
                           <a href="#"><img class="img-fluid" src="images/culture-01.jpg" alt="culture1"></a>
                           <div class="tags">
-                            <a href="#" class="position-absolute">Travel</a>
+                            <a href="#" class="position-absolute py-0 px-2">Travel</a>
                           </div>
                         </div>
                         <div class="info">
@@ -295,7 +299,7 @@
                         <div class="image position-relative">
                           <a href="#"><img class="img-fluid" src="images/culture-02.jpg" alt="culture2"></a>
                           <div class="tags">
-                            <a href="#" class="position-absolute">Culture</a>
+                            <a href="#" class="position-absolute py-0 px-2">Culture</a>
                           </div>
                         </div>
                         <div class="info">
@@ -310,7 +314,7 @@
                         <div class="image position-relative">
                           <a href="#"><img class="img-fluid" src="images/culture-03.jpg" alt="culture3"></a>
                           <div class="tags">
-                            <a href="#" class="position-absolute">Canada</a>
+                            <a href="#" class="position-absolute py-0 px-2">Canada</a>
                           </div>
                         </div>
                         <div class="info">
@@ -471,7 +475,7 @@
                     </div>
                     <div class="info font-weight-bold">
                       <a href="#">Why the U.S. Pact With the Taliban to End the Afghanistan War Is a Bad Deal</a>
-                      <div class="byline mt-1">By Keith Rose</div>
+                      <div class="byline text-uppercase mt-1">By Keith Rose</div>
                     </div>
                   </li>
                   <li class="position-relative py-2 d-flex border-top">
@@ -480,7 +484,7 @@
                     </div>
                     <div class="info font-weight-bold">
                       <a href="#">Can the American-European Alliance Survive?</a>
-                      <div class="byline mt-1">By Ariel Cohen</div>
+                      <div class="byline text-uppercase mt-1">By Ariel Cohen</div>
                     </div>
                   </li>
                   <li class="position-relative py-2 d-flex border-top">
@@ -489,7 +493,7 @@
                     </div> 
                     <div class="info font-weight-bold">
                       <a href="#">The Roger Stone Sentence Was Appropriate. The Guidelines Need to Change</a>
-                      <div class="byline mt-1">By Andrew McBride</div>
+                      <div class="byline text-uppercase mt-1">By Andrew McBride</div>
                     </div>
                   </li>
                   <li class="position-relative py-2 d-flex border-top">
@@ -498,7 +502,7 @@
                     </div>
                     <div class="info font-weight-bold">
                       <a href="#">Weinstein's Verdict Is Less Than We Deserved—Yet More Than We Dared Hope For </a>
-                      <div class="byline mt-1">By Ann Olivarius</div>
+                      <div class="byline text-uppercase mt-1">By Ann Olivarius</div>
                     </div>
                   </li>
                   <li class="position-relative py-2 d-flex border-top">
@@ -507,7 +511,7 @@
                     </div>
                     <div class="info font-weight-bold">
                       <a href="#">Idlib Is the New Face of Conflict. The World Needs to Catch Up</a>
-                      <div class="byline mt-1">By Keith Rose</div>
+                      <div class="byline text-uppercase mt-1">By Keith Rose</div>
                     </div>
                   </li>
                   <li class="position-relative py-2 d-flex border-top">
@@ -516,7 +520,7 @@
                     </div>
                     <div class="info font-weight-bold">
                       <a href="#">The Stature Gap Between Trump and the Bickering Democrats Is Growing</a>
-                      <div class="byline mt-1">By Newt Gingrich</div>
+                      <div class="byline text-uppercase mt-1">By Newt Gingrich</div>
                     </div>
                   </li>
                 </ul>
@@ -524,7 +528,7 @@
 
               <div class="debate py-4">
                 <div class="block-title font-weight-bold py-2">THE DEBATE</div>
-                <div class="debate-item debate-red">
+                <div class="debate-item debate-red pt-1">
                   <div class="debate-about d-flex">
                     <div class="image float-left pr-3">
                       <a href="#"><img src="images/the-debate-01.jpg" alt="debater1"></a>
@@ -534,16 +538,16 @@
                     </div>
                   </div>
                   <div class="debate-byline position-relative d-flex">
-                    <div class="the-by position-relative">
+                    <div class="the-by position-relative text-uppercase pt-4">
                       By <span class="font-weight-bold">Peter Roff</span>
                     </div>
                     <div class="image position-relative">
-                      <a href="#"><img class="img-fluid" src="https://d.newsweek.com/en/full/1528785/roff-new.png" alt="debater-1"></a>
+                      <a href="#"><img class="img-fluid mr-1" src="https://d.newsweek.com/en/full/1528785/roff-new.png" alt="debater-1"></a>
                     </div>
                   </div>
                 </div>
-                <div class="vs font-weight-bold">VS</div>
-                <div class="debate-item debate-blue">
+                <div class="vs font-weight-bold rounded-circle bg-dark text-center mt-1 mb-3 mx-auto">VS</div>
+                <div class="debate-item debate-blue pt-1">
                   <div class="debate-about d-flex">
                     <div class="image float-left pr-3">
                       <a href="#"><img src="images/the-debate-02.jpg" alt="debater1"></a>
@@ -553,11 +557,11 @@
                     </div>
                   </div>
                   <div class="debate-byline position-relative d-flex">
-                    <div class="the-by position-relative">
+                    <div class="the-by position-relative text-uppercase pt-4">
                       By <span class="font-weight-bold">Robert Reich</span>
                     </div>
                     <div class="image position-relative">
-                      <a href="#"><img class="img-fluid" src="images/debate-vs-02.png" alt="debater2"></a>
+                      <a href="#"><img class="img-fluid mr-1" src="images/debate-vs-02.png" alt="debater2"></a>
                     </div>
                   </div>
                 </div>
@@ -627,7 +631,7 @@
 
               <div class="sponsor py-3">
                 <div class="wrap position-relative">
-                  <div class="category-blue2 position-absolute fixed-left font-weight-bold text-uppercase text-blue">
+                  <div class="category-blue2 py-1 px-3 position-absolute fixed-left font-weight-bold text-uppercase text-blue">
                     Sponsored Insight
                   </div>
                   <div class="image">
@@ -642,9 +646,9 @@
                 </div>
               </div>
 
-              <div class="newsletter-signup p-4 border my-2 font-weight-bold ">
+              <div class="newsletter-signup p-4 border my-2 mx-auto font-weight-bold ">
                 <div class="title d-flex text-uppercase align-items-center">
-                  <span class="icon-n"></span>
+                  <span class="icon-n mr-3"></span>
                   Sign up for our Newsletter
                 </div>
                 <a class="d-inline-block text-white bg-secondary text-uppercase font-weight-bold p-1 my-3" href="#">Sign up &nbsp; &#10095;</a><br>
@@ -671,7 +675,7 @@
       
       <div class="page-bottom">
         <div class="magazine container px-4 bg-white">
-          <div class="n-title border-bottom d-flex justify-content-center font-weight-bold py-1 mb-2"><span class="icon-n"></span>IN THE MAGAZINE</div>
+          <div class="n-title border-bottom d-flex justify-content-center font-weight-bold py-1 mb-2"><span class="icon-n mr-2"></span>IN THE MAGAZINE</div>
           <div class="row">
             <article class="col-sm-12 col-md-3">
               <div class="wrap">
@@ -748,11 +752,11 @@
         </div> 
 
         <div class="editors-pick container py-3 px-4 bg-white">
-          <div class="n-title border-bottom d-flex justify-content-center font-weight-bold py-1 mb-2"><span class="icon-n"></span>EDITOR'S PICK</div>
+          <div class="n-title border-bottom d-flex justify-content-center font-weight-bold py-1 mb-2"><span class="icon-n mr-2"></span>EDITOR'S PICK</div>
           <div class="row">
             <article class="col-md-6 col-lg-3 py-2">
               <div class="wrap position-relative">
-                <div class="category-red position-absolute fixed-left ">
+                <div class="category-red py-1 px-3 position-absolute fixed-left ">
                   <a href="#" class="a-category font-weight-bold text-uppercase text-red">Tech & Science</a>
                 </div>
                 <div class="image"><a href="#"><img class="img-fluid" src="images/editorspick-01.jpg" alt="editor1"></a></div>
@@ -762,7 +766,7 @@
             </article>
             <article class="col-md-6 col-lg-3 py-2">
               <div class="wrap position-relative">
-                <div class="category-red position-absolute fixed-left ">
+                <div class="category-red py-1 px-3  position-absolute fixed-left ">
                   <a href="#" class="a-category font-weight-bold text-uppercase text-red">U.S.</a>
                 </div>
                 <div class="image"><a href="#"><img class="img-fluid" src="images/editorspick-02.jpg" alt="editor2"></a></div>
@@ -772,7 +776,7 @@
             </article>
             <article class="col-md-6 col-lg-3 py-2">
               <div class="wrap position-relative">
-                <div class="category-red position-absolute fixed-left ">
+                <div class="category-red py-1 px-3 position-absolute fixed-left ">
                   <a href="#" class="a-category font-weight-bold text-uppercase text-red">World</a>
                 </div>
                 <div class="image"><a href="#"><img class="img-fluid" src="images/editorspick-03.jpg" alt="editor3"></a></div>
@@ -782,7 +786,7 @@
             </article>
             <article class="col-md-6 col-lg-3 py-2">
               <div class="wrap position-relative">
-                <div class="category-red position-absolute fixed-left ">
+                <div class="category-red py-1 px-3 position-absolute fixed-left ">
                   <a href="#" class="a-category font-weight-bold text-uppercase text-red">U.S.</a>
                 </div>
                 <div class="image"><a href="#"><img class="img-fluid" src="images/editorspick-04.jpg" alt="editor4"></a></div>
@@ -792,7 +796,7 @@
             </article>
             <article class="col-md-6 col-lg-3 py-2">
               <div class="wrap position-relative">
-                <div class="category-red position-absolute fixed-left ">
+                <div class="category-red py-1 px-3 position-absolute fixed-left ">
                   <a href="#" class="a-category font-weight-bold text-uppercase text-red">World</a>
                 </div>
                 <div class="image"><a href="#"><img class="img-fluid" src="images/editorspick-05.jpg" alt="editor5"></a></div>
@@ -802,7 +806,7 @@
             </article>
             <article class="col-md-6 col-lg-3 py-2">
               <div class="wrap position-relative">
-                <div class="category-red position-absolute fixed-left ">
+                <div class="category-red py-1 px-3 position-absolute fixed-left ">
                   <a href="#" class="a-category font-weight-bold text-uppercase text-red">Politics</a>
                 </div>
                 <div class="image"><a href="#"><img class="img-fluid" src="images/editorspick-06.jpg" alt="editor6"></a></div>
@@ -812,7 +816,7 @@
             </article>
             <article class="col-md-6 col-lg-3 py-2">
               <div class="wrap position-relative">
-                <div class="category-red position-absolute fixed-left ">
+                <div class="category-red py-1 px-3 position-absolute fixed-left ">
                   <a href="#" class="a-category font-weight-bold text-uppercase text-red">Culture</a>
                 </div>
                 <div class="image"><a href="#"><img class="img-fluid" src="images/editorspick-07.jpg" alt="editor7"></a></div>
@@ -822,7 +826,7 @@
             </article>
             <article class="col-md-6 col-lg-3 py-2">
               <div class="wrap position-relative">
-                <div class="category-red position-absolute fixed-left ">
+                <div class="category-red py-1 px-3 position-absolute fixed-left ">
                   <a href="#" class="a-category font-weight-bold text-uppercase text-red">News</a>
                 </div>
                 <div class="image"><a href="#"><img class="img-fluid" src="images/editorspick-08.jpg" alt="editor8"></a></div>
@@ -834,47 +838,47 @@
         </div>
 
         <div class="slideshows container px-4 py-4 bg-white">
-          <div class="n-title border-bottom d-flex justify-content-center font-weight-bold py-1 mb-2"><span class="icon-n position-relative"></span><a href="#">FEATURED SLIDESHOWS</a></div>
+          <div class="n-title border-bottom d-flex justify-content-center font-weight-bold py-3"><span class="icon-n position-relative mr-3"></span><a href="#">FEATURED SLIDESHOWS</a></div>
             <div class="articles row">
             <article class="col-sm-12 col-md-4 py-2">
               <div class="image position-relative">
                 <a href="#" class="image-link"><img class="img-fluid" src="images/slideshow-01.jpg" alt="slideshow1"></a>
-                <a class="number d-block position-absolute fixed-left fixed-bottom font-weight-bold count-link" href="#">11</a>
+                <a class="number text-center d-block position-absolute fixed-left fixed-bottom font-weight-bold count-link" href="#">11</a>
               </div>
               <h5 class="font-weight-bold py-3"><a href="#" class="article-link">Relive the 'Star Wars' Saga at These Filming Locations</a></h5>
             </article>
             <article class="col-sm-12 col-md-4 py-2">
               <div class="image position-relative">
                 <a href="#" class="image-link"><img class="img-fluid" src="images/slideshow-02.jpg" alt="slideshow2"></a>
-                <a class="number d-block position-absolute fixed-left fixed-bottom font-weight-bold count-link" href="#">12</a>
+                <a class="number text-center d-block position-absolute fixed-left fixed-bottom font-weight-bold count-link" href="#">12</a>
               </div>
               <h5 class="font-weight-bold py-3"><a href="#" class="article-link">Active Volcanoes Around the World That Could Erupt at Any Moment</a></h5>
             </article>
             <article class="col-sm-12 col-md-4 py-2">
               <div class="image position-relative">
                 <a href="#" class="image-link"><img class="img-fluid" src="images/slideshow-03.jpg" alt="slideshow3"></a>
-                <a class="number d-block position-absolute fixed-left fixed-bottom font-weight-bold count-link" href="#">13</a>
+                <a class="number text-center d-block position-absolute fixed-left fixed-bottom font-weight-bold count-link" href="#">13</a>
               </div>
               <h5 class="font-weight-bold py-3"><a href="#" class="article-link">Inside the Last Bohemian Apartments of the Storied Hotel Chelsea </a></h5>
             </article>
             <article class="col-sm-12 col-md-4 py-2">
               <div class="image position-relative">
                 <a href="#" class="image-link"><img class="img-fluid" src="images/slideshow-04.jpg" alt="slideshow4"></a>
-                <a class="number d-block position-absolute fixed-left fixed-bottom font-weight-bold count-link" href="#">7</a>
+                <a class="number text-center d-block position-absolute fixed-left fixed-bottom font-weight-bold count-link" href="#">7</a>
               </div>
               <h5 class="font-weight-bold py-3"><a href="#" class="article-link">The Great Alone: Walking the Pacific Crest Trail</a></h5>
             </article>
             <article class="col-sm-12 col-md-4 py-2">
               <div class="image position-relative">
                 <a href="#" class="image-link"><img class="img-fluid" src="images/slideshow-05.jpg" alt="slideshow5"></a>
-                <a class="number d-block position-absolute fixed-left fixed-bottom font-weight-bold count-link" href="#">4</a>
+                <a class="number text-center d-block position-absolute fixed-left fixed-bottom font-weight-bold count-link" href="#">4</a>
               </div>
               <h5 class="font-weight-bold py-3"><a href="#" class="article-link">Cruise the Galapagos While Conserving Wildlife Found Nowhere Else </a></h5>
             </article>
             <article class="col-sm-12 col-md-4 py-2">
               <div class="image position-relative">
                 <a href="#" class="image-link"><img class="img-fluid" src="images/slideshow-06.jpg" alt="slideshow6"></a>
-                <a class="number d-block position-absolute fixed-left fixed-bottom font-weight-bold count-link" href="#">8</a>
+                <a class="number text-center d-block position-absolute fixed-left fixed-bottom font-weight-bold count-link" href="#">8</a>
               </div>
               <h5 class="font-weight-bold py-3"><a href="#" class="article-link">The New Documentary Trying to Save the Most Trafficked Mammals in the World</a></h5>
             </article>
@@ -1087,12 +1091,12 @@
         <div class="row py-4">
         <div class="subscribe-left col-md-12 col-lg-7 col-xl-8">
           <div class=" block-title-red font-weight-bold py-2">SUBSCRIBE</div>
-          <div class="col-l d-flex">
+          <div class="col-l d-flex pt-4 pl-4 pr-1 pb-1">
             <div class="image position-relative">
               <div class="mag-thumb prev"><img class="img-fluid" src="https://d.newsweek.com/en/full/1576902/april-03-2020-cover.jpg" alt="thumb1"></div>
               <div class="mag-thumb current position-absolute"><img class="img-fluid" src="https://d.newsweek.com/en/full/1577760/cover-april-10-2020.jpg" alt="thumb2"></div>
             </div>
-            <div class="info pl-4 d-flex flex-column justify-content-center">
+            <div class="info pl-4 pb-4 d-flex flex-column justify-content-center">
               <h4 class="font-weight-bold">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h4>
               <p>All Access + Weekly Delivery.<br>
                 Choose A Membership That's Perfect for You!</p>
@@ -1121,7 +1125,7 @@
         <div class="brand d-flex">
           <a href="#"><img width="225" src="images/newsweek-logo-red.svg" alt="Newsweek logo"></a>
         </div>
-        <div class="news-copyright"><p class="mt-4 mb-0 ml-3 text-uppercase ">&#169; 2020 Newsweek</p></div>
+        <div class="news-copyright text-uppercase"><p class="mt-4 mb-0 ml-3 text-uppercase ">&#169; 2020 Newsweek</p></div>
           <div class="social ml-auto mt-3">
             <a href="#" class="facebook-icon d-block text-center mr-2"></a>
             <a href="#" class="twitter-icon d-block text-center mr-2"></a>
@@ -1137,7 +1141,7 @@
       <div class="footer-links-edition d-flex pt-2 pb-1">
         <label class="pr-2 my-0"><strong>Editions: </strong></label>
         <ul class="menu nav d-flex">
-          <li class="first leaf px-2 border-right"><a href="#">U.S. Edition</a></li>
+          <li class="d-flex align-items-center leaf px-2 border-right"><a href="#">U.S. Edition</a></li>
           <li class="leaf px-2 border-right"><a href="#">日本</a></li>
           <li class="leaf px-2 border-right"><a href="#">Pakistan</a></li>
           <li class="leaf px-2 border-right"><a href="#">Polska</a></li>
