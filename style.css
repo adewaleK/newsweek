@@ -30,10 +30,9 @@ body {
   top: 99%;
   z-index: 5;
   background-color: #f72210;
-
 }
 
-.triangle{
+.triangle {
   width: 0;
   height: 0;
   top: 99.4%;
@@ -59,14 +58,11 @@ body {
   content: "";
 }
 
-/* end of the sticky navbar */
-
 .container,
 .header-bottom, 
 .header-width {
   max-width: 1310px;
 }
-
 
 a {
   color: black;
@@ -292,7 +288,6 @@ h6 a:hover {
   font-size: 22px;
   line-height: 22px;
 }
-
 
 .slideshows .icon-n::after {
   border-bottom: 3px solid red;
@@ -537,7 +532,6 @@ h6 a:hover {
     padding: 0 5px !important;
     font-size: 14px !important;
   }
-
 }
 
 @media (max-width: 767px) {
@@ -568,6 +562,3 @@ h6 a:hover {
     flex-direction: row !important;
   }
 }
-
-
-
