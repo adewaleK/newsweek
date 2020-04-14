@@ -59,7 +59,7 @@ body {
 }
 
 .container,
-.header-bottom, 
+.header-bottom,
 .header-width {
   max-width: 1310px;
 }
